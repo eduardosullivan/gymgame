@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Assets/icon-gymgame.ico">
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>GymCoin Wallet</title>
+    
+</head>
+<body>
+    <div class="container">
+
+
+
+            <div class="moeda">
+                <div class="contador" id="contador">0/90</div>
+    
+                <p>Cotação Gyncoin</p>
+               <div class="conta"> 
+                <h1><div class="moedinha">🪙</div>0,00000 <span style="font-weight: 400;">GCN</span></h1>
+               <p style="font-weight: 300;">337,942.66 <span style="font-weight: 500;">GCN</span> = R$1 <span style="font-weight: 500;">BRL</span></p></div>
+            </div>
+        </div>
+    
+    
+    
+        <div class="info">
+            <div class="treino valor">
+               <p style="font-weight: 400;"> Valor do treino  | 🪙0,000005 <span style="font-weight: 600;">GCN</span> / 30 min</p>  
+            </div>
+            <div class="cardio valor">
+                <p style="font-weight: 400;"> Valor do cardio | 🪙0,0000002  <span style="font-weight: 600;">GCN</span> / 1 Km</p>  
+         </div>
+    
+    <!--formulário-->
+         <form target="_blank" action="https://hook.us1.make.com/z1vg57w6d97opvuuz2q3i1ggwt3841ml">
+              <!-- Campo que será automaticamente preenchido com a data -->
+    
+              <input  type="text" id="live-date" name="liveDate" readonly class="relogio" style="text-align: center; display: none; font-weight: 400; font-size: 16px; letter-spacing: 3px;">
+              
+              
+            <p class="fundos" style="font-weight: 400; color: rgb(255, 255, 255); margin: 20px 0;">Adicionar fundos </p>
+            
+            <label for="cars" style="margin-bottom: 15px;">Selecione a conta:</label>
+            <select style="font-size: 16px;" class="inputs" name="nomes" id="nomes">
+                <option value="null"></option>
+                <option value="adriano">Adriano</option>
+                <option value="carlos">Carlos</option>
+                <option value="cris">Cris</option>
+                <option value="eduarda">Eduarda</option>
+                <option value="eduardo">Eduardo</option>
+                <option value="geison">Geison</option>
+                <option value="geovana">Geovana</option>
+                <option value="hilquias">Hilquias</option>
+                <option value="jamili">Jamili</option>
+                <option value="junior">Junior</option>
+                <option value="paloma">Paloma</option>
+                <option value="rafaela">Rafaela</option>
+              </select>
+    
+    
+              <label for="cars" style="margin-bottom: 15px;">Tipo de depósito:</label>
+              <select style="font-size: 16px;" class="inputs" name="tipo" id="tipo">
+                <option value="null"></option>
+                <option  value="Treino">Treino</option>
+                <option  value="Cárdio">Cardio</option>
+             </select>
+    
+            
+             <select style="font-size: 16px;" class="inputs" name="preço" id="preço">
+               <option value="30">Selecione o tempo de treino</option>
+               <option value="0,000005">30 - 40 min = 🪙 0,000005 GCN</option>
+               <option value="0,000010">1:00 - 1:30 hrs = 🪙 0,000010 GCN</option>
+               <option value="0,000020">2:00 - 2:30 hrs = 🪙 0,000020 GCN</option>
+               <option value="0,000025">3:00 - 3:30 hrs = 🪙 0,000025 GCN</option>
+            </select>
+    
+            <input class="tempo" type="number" placeholder="Distância em Km - Cárdio" id="km" name="distancia">
+    
+    
+              <button style="font-weight: 400; font-size: 15px;" class="enviar" type="submit">Adicionar Saldo</button>
+    
+    
+         </form>     <!--final do formulário-->
+
+
+         <!--Ranking semanal inicio-->
+     <div class="ranking" style="color: white;">
+        <h3 style="margin: -2px 0 20px 0;"> 🏆 Melhores da Semana 🏆</h3>
+
+
+    
+             <div class="participantes"> <!-- DIV Participante-->
+             <!--Participante-->
+        <div id="adriano" class="participante">
+            <div class="position" style="font-weight: 400; ">#1</div>
+            <img src="/Assets/Avatar/adriano.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Adriano Matheus</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+        <!--Participante-->
+        <div id="Carlos" class="participante">
+            <div class="position" style="font-weight: 400; ">#2</div>
+            <img src="/Assets/Avatar/carlos.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Carlos Amaral</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+        <!--Participante-->
+        <div id="Cris" class="participante">
+            <div class="position" style="font-weight: 400; ">#3</div>
+            <img src="/Assets/Avatar/cris.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Cristhian Maciel</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Duda" class="participante">
+            <div class="position" style="font-weight: 400; ">#4</div>
+            <img src="/Assets/Avatar/eduarda.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Eduarda Samanta</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+        <!--Participante-->
+        <div id="Dudu" class="participante">
+            <div class="position" style="font-weight: 400; ">#5</div>
+            <img src="/Assets/Avatar/eduardo.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Eduardo Sullivan</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+        <!--Participante-->
+        <div id="Polo" class="participante">
+            <div class="position" style="font-weight: 400; ">#6</div>
+            <img src="/Assets/Avatar/geo.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Geison Soares</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Geo" class="participante">
+            <div class="position" style="font-weight: 400; ">#7</div>
+            <img src="/Assets/Avatar/hilquias.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Geovana</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Hilquias" class="participante">
+            <div class="position" style="font-weight: 400; ">#8</div>
+            <img src="/Assets/Avatar/jamili.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Hilquias Alcântara</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Jamili" class="participante">
+            <div class="position" style="font-weight: 400; ">#9</div>
+            <img src="/Assets/Avatar/junior.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Jamili</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Junior" class="participante">
+            <div class="position" style="font-weight: 400; ">#10</div>
+            <img src="/Assets/Avatar/paloma.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Júnior</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Paloma" class="participante">
+            <div class="position" style="font-weight: 400; ">#11</div>
+            <img src="/Assets/Avatar/polo.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Paloma Gomes</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+
+        <!--Participante-->
+        <div id="Rafa" class="participante">
+            <div class="position" style="font-weight: 400; ">#12</div>
+            <img src="/Assets/Avatar/rafa.jpg" style="width: 50px; border-radius: 100%;" alt="">
+            <div class="name-box">
+                <p class="part">Rafaela Carvalho</p>
+                <p class="gcn">🪙 0,000000 GCN</p>
+            </div>
+        </div>
+        <!--Participante end-->
+
+             </div> <!-- DIV Participante-->
+
+
+
+
+
+
+     </div>
+
+   
+
+    <script src="/Js/script.js"></script>
+</body>
+</html>

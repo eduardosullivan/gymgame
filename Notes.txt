@@ -1,0 +1,49 @@
+Fundo {
+    Conteiner {
+
+        Div-cotação{
+            Texto
+            moeda+valor do GCN
+            paridade
+        }
+
+        div- fundos {
+            Texto
+            dropdown
+        }
+
+        div - valor dos fundos {
+            div - treino
+            div - cardio
+        }
+
+        div - imputs {
+            dropdown - tipo de exercicio
+            if treino duração
+            if cardio km
+            botão - adicionar saldo
+        }
+
+        div - container ranking {
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+            div - pessoa
+        }
+
+
+    }
+}
+
+
+
+
